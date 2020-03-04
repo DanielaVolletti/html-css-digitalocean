@@ -33,7 +33,7 @@ ul li {
   padding-top: 5px;
 }
 
-#bottone-sign {
+#bottone-sign-up {
   padding-top: 0;
 }
 
@@ -47,7 +47,7 @@ ul li {
   color: #0069ff;
 }
 
-#seconda-nav button {
+#bottone-sign-up button {
   border: 1px solid #0069ff;
   border-radius: 3px;
   color: #0069ff;
@@ -56,7 +56,7 @@ ul li {
   font-weight: bold;
 }
 
-#seconda-nav button:hover {
+#bottone-sign-up button:hover {
   color: white;
   background-color: #0069ff;
 }
@@ -70,19 +70,108 @@ main {
   padding-top: 50px;
 }
 
-/* regole debug */
-/* [class*="col-"] {
-  border: solid 1px black;
-  height: 150px;
-} */
-
-
-section {
-  height: 150px;
-  background-color: pink;
-  border: solid 1px red;
+/* sezione uno */
+#sezione-uno {
+  background-image: url(img/sfondo-uno.jpg);
 }
-footer {
-  height: 150px;
-  background-color: purple;
+
+#sezione-uno h1 {
+  color: white;
+  font-weight: bold;
+}
+
+#sezione-uno p {
+  color: #bbcdff;
+}
+/* parte dati sezione uno */
+#dati {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+#dati h4 {
+  color: #0069ff;
+}
+
+#dati h3, #dati h4, #dati h6 {
+  font-weight: bold;
+}
+
+#dati button {
+  width: 100%;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+#bottone-create button {
+  color: white;
+  background-color: #0069ff;
+  border: #0069ff;
+  margin-bottom: 5px;
+}
+
+#bottone-create button:hover {
+  background-color: #1633FF;
+}
+
+#bottone-sign button {
+  background-color: #F4F4F5;
+}
+
+#bottone-sign img {
+  float: left;
+  width: 6%;
+}
+
+#bottone-sign span {
+  float: left;
+  width: 88%;
+}
+
+#dati h6 {
+  font-size: 11px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  /* prima sezione */
+  #sezione-uno {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #sezione-uno h1 {
+    font-size: 50px;
+  }
+
+  #sezione-uno p {
+    font-size: 19px;
+  }
+
+  #dati h3, #dati h4 {
+    font-size: 23px;
+  }
+
+  #dati button {
+    padding: 5px 0;
+  }
+
 }

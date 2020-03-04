@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
     <link rel="stylesheet" href="bootstrap/js/bootstrap.js">
     <script src="https://kit.fontawesome.com/d773f239a3.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>Digital Ocean</title>
   </head>
   <body>
@@ -51,7 +52,7 @@
                   <li class="">
                     <a href="#">Login</a>
                   </li>
-                  <li id="bottone-sign">
+                  <li id="bottone-sign-up">
                     <button type="button" name="button">Sign Up</button>
                   </li>
                 </ul>
@@ -61,16 +62,46 @@
         </div>
       </nav>
     </header>
+
     <main>
+
       <!-- sezione iniziale -->
-      <section>
+      <section id="sezione-uno">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6">
-
+            <div class="col-lg-7">
+              <h1>The simplest cloud platform for developers & teams</h1>
+              <p>
+                Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy fot teams and businesses, whether you're running one virtual machine or ten thousand.
+              </p>
             </div>
-            <div class="col-lg-6">
-
+            <div class="col-lg-5">
+              <div id="dati" class="centratura">
+                <h3>Deploy your app in seconds.</h3>
+                <h4>Get started now.</h4>
+                <form>
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  <div id="bottone-create">
+                    <button type="button" name="button">Create your account</button>
+                  </div>
+                  <div id="bottone-sign" class="clearfix">
+                    <button type="button" name="button">
+                      <img src="img/google.png" alt="logo google">
+                      <span>Sign up with google</span>
+                    </button>
+                  </div>
+                  <h6>By signing up your agree to
+                    <span>
+                      <a href="#">Terms of Service</a>.
+                    </span>
+                  </h6>
+                </form>
+              </div>
             </div>
           </div>
         </div>
