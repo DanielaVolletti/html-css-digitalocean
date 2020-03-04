@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.centratura {
+  text-align: center;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+/* regole debug */
+[class*="col-"] {
+  border: solid 1px black;
+  height: 150px;
+}
+
+header {
+  height: 150px;
+  background-color: yellow;
+}
+
+section {
+  height: 150px;
+  background-color: pink;
+  border: solid 1px red;
+}
+footer {
+  height: 150px;
+  background-color: purple;
+}
