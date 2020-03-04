@@ -43,12 +43,22 @@ ul li {
   font-weight: bold;
 }
 
+.navigazione ul li a:hover {
+  color: #0069ff;
+}
+
 #seconda-nav button {
   border: 1px solid #0069ff;
   border-radius: 3px;
   color: #0069ff;
   background: transparent;
   padding: 5px;
+  font-weight: bold;
+}
+
+#seconda-nav button:hover {
+  color: white;
+  background-color: #0069ff;
 }
 
 ul, ol {
