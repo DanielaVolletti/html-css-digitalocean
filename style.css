@@ -198,6 +198,49 @@ main {
   padding-bottom: 20px;
 }
 
+/* sezione designed */
+#sezione-designed {
+  background-color: #F3F5F9;
+  padding: 50px 0;
+}
+
+#sezione-designed h3, #sezione-designed p, #contenitore-screen i, #contenitore-screen h6 {
+  color: #0c2454;
+  font-weight: bold;
+}
+#sezione-designed p, #contenitore-screen h6 {
+  opacity: 0.8;
+}
+
+#contenitore-screen i {
+  opacity: 0.6;
+}
+
+#contenitore-screen h6 {
+  font-size: 15px;
+}
+
+#contenitore-screen i {
+  vertical-align: middle;
+}
+
+#contenitore-screen i:hover {
+  color: #0c2454;
+  opacity: 0.9;
+}
+
+#sezione-designed p {
+  padding-top: 10px;
+}
+
+#contenitore-screen {
+  padding-top: 50px;
+}
+
+#contenitore-screen img {
+  padding-bottom: 10px;
+}
+
 
 
 /* Small devices (tablets, 768px and up) */
@@ -270,6 +313,18 @@ main {
 
   #sezione-deploy .centratura p {
     font-size: 18px;
+  }
+
+  /* sezione designed */
+
+  #contenitore-screen img {
+    width: 500px;
+    height: auto;
+  }
+
+  #contenitore-screen i {
+    font-size: 30px;
+    padding: 10px;
   }
 
 }
