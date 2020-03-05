@@ -248,7 +248,7 @@ main {
   padding-bottom: 10px;
 }
 
-#contenitore-screen #pallini i {
+#contenitore-screen .pallini i, #sezione-rockerbox .pallini i {
   font-size: 10px;
   font-weight: normal;
   color: #0069ff;
@@ -261,7 +261,7 @@ main {
   padding: 50px 0;
 }
 
-#sezione-features, #sezione-features h5, #sezione-features h3, #sezione-featuresa {
+#sezione-features, #sezione-features h5, #sezione-features h3 {
   font-weight: bold;
   color: #0c2454;
 }
@@ -318,6 +318,61 @@ main {
 }
 
 
+/* sezione rockerbox */
+#sezione-rockerbox {
+  background-color: #F3F5F9;
+  padding: 50px 0;
+  color: #0c2454;
+}
+
+#sezione-rockerbox h3 {
+  padding-bottom: 30px;
+}
+
+#simil-screen {
+  background-color: white;
+  padding: 50px 0;
+  display: inline-block;
+}
+
+#sezione-rockerbox h3, #simil-screen p, #nome {
+  font-weight: bold;
+}
+
+#simil-screen p {
+  padding-top: 20px;
+  opacity: 0.5;
+  font-size: 18px;
+}
+
+#simil-screen a {
+  color: #0069ff;
+  text-decoration: none;
+}
+
+#sezione-rockerbox i {
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+#simil-screen i {
+  font-size: initial;
+}
+
+#simil-screen footer {
+  padding-bottom: 20px;
+}
+
+#sezione-rockerbox .pallini {
+  padding-top: 20px;
+}
+
+#sezione-rockerbox .pallini i:hover {
+  color: #0c2454;
+}
+
+
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
@@ -360,7 +415,7 @@ main {
 
   /* corpo centrale */
 
-  #sezione-deploy h3, #sezione-features h3, #sezione-designed h3, #sezione-tabelle h3 {
+  #sezione-deploy h3, #sezione-features h3, #sezione-designed h3, #sezione-tabelle h3, #sezione-rockerbox h3 {
     font-size: 27px;
   }
 
@@ -403,6 +458,13 @@ main {
   #contenitore-screen i {
     font-size: 30px;
     padding: 10px;
+  }
+
+  /* sezione rockerbox */
+
+  #simil-screen {
+    width: 500px;
+    height: auto;
   }
 
 }
