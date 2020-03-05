@@ -117,17 +117,22 @@ main {
 }
 
 #bottone-sign button {
+  background-color: white;
+}
+
+#bottone-sign button:hover {
   background-color: #F4F4F5;
 }
 
 #bottone-sign img {
   float: left;
-  width: 6%;
+  width: 5%;
+  margin-left: 1%;
 }
 
 #bottone-sign span {
   float: left;
-  width: 88%;
+  width: 87%;
 }
 
 #dati h6 {
@@ -164,6 +169,35 @@ main {
 #sezione-customers h6 {
   font-weight: bold;
 }
+
+/* sezione deploy */
+
+#sezione-deploy, #sezione-deploy h5, #sezione-deploy h3, #sezione-deploy ul li a {
+  font-weight: bold;
+  color: #0c2454;
+}
+
+#sezione-deploy aside ul li a, #sezione-deploy p {
+  opacity: 0.5;
+}
+
+#sezione-deploy aside ul li a {
+  text-decoration: none;
+}
+
+#sezione-deploy aside ul li a:hover {
+  color: #0c2454;
+  opacity: 0.9;
+}
+
+#sezione-deploy aside {
+  border-left: solid 1px #c3c3c3;
+}
+
+#sezione-deploy article {
+  padding-bottom: 20px;
+}
+
 
 
 /* Small devices (tablets, 768px and up) */
@@ -210,6 +244,32 @@ main {
   #sezione-customers {
     padding-top: 25px;
     padding-bottom: 20px;
+  }
+
+  /* sezione deploy */
+  #sezione-deploy {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  #blocco-aside-articoli {
+    padding-top: 40px;
+  }
+
+  #sezione-deploy aside ul li {
+    padding: 10px 0;
+  }
+
+  #sezione-deploy aside ul li a {
+    font-size: 17px;
+  }
+
+  #sezione-deploy h3 {
+    font-size: 27px;
+  }
+
+  #sezione-deploy .centratura p {
+    font-size: 18px;
   }
 
 }
