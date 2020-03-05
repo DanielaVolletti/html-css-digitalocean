@@ -134,6 +134,38 @@ main {
   font-size: 11px;
 }
 
+#dati h6 span a {
+  text-decoration: underline;
+}
+
+/* sezione customers */
+#sezione-customers {
+  background-color: #F3F5F9;
+}
+
+#sezione-customers h5 {
+  color:  #555555;
+  font-weight: bold;
+  opacity: 0.6;
+}
+
+#loghini {
+  line-height: 100px;
+}
+
+.logo-customers {
+  width: 130px;
+  height: auto;
+}
+
+.logo-customers img {
+  width: 100%;
+}
+#sezione-customers h6 {
+  font-weight: bold;
+}
+
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
@@ -172,6 +204,12 @@ main {
 
   #dati button {
     padding: 5px 0;
+  }
+
+  /* sezione customers */
+  #sezione-customers {
+    padding-top: 25px;
+    padding-bottom: 20px;
   }
 
 }
