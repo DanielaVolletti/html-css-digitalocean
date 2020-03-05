@@ -83,6 +83,7 @@ main {
 #sezione-uno p {
   color: #bbcdff;
 }
+
 /* parte dati sezione uno */
 #dati {
   background-color: white;
@@ -141,6 +142,7 @@ main {
 
 #dati h6 span a {
   text-decoration: underline;
+  color: #0069ff;
 }
 
 /* sezione customers */
@@ -166,8 +168,13 @@ main {
 .logo-customers img {
   width: 100%;
 }
+
 #sezione-customers h6 {
   font-weight: bold;
+}
+
+#sezione-customers h6 a {
+  color: #0069ff;
 }
 
 /* sezione deploy */
@@ -208,20 +215,19 @@ main {
   color: #0c2454;
   font-weight: bold;
 }
+
 #sezione-designed p, #contenitore-screen h6 {
   opacity: 0.8;
 }
 
 #contenitore-screen i {
   opacity: 0.6;
+  vertical-align: middle;
 }
 
 #contenitore-screen h6 {
   font-size: 15px;
-}
-
-#contenitore-screen i {
-  vertical-align: middle;
+  opacity: 0.5;
 }
 
 #contenitore-screen i:hover {
@@ -231,6 +237,7 @@ main {
 
 #sezione-designed p {
   padding-top: 10px;
+  opacity: 0.5;
 }
 
 #contenitore-screen {
@@ -241,6 +248,36 @@ main {
   padding-bottom: 10px;
 }
 
+#contenitore-screen #pallini i {
+  font-size: 10px;
+  font-weight: normal;
+  color: #0069ff;
+}
+
+
+/* sezione features */
+
+#sezione-features {
+  padding: 50px 0;
+}
+
+#sezione-features, #sezione-features h5, #sezione-features h3, #sezione-featuresa {
+  font-weight: bold;
+  color: #0c2454;
+}
+
+#sezione-features h3 {
+  padding-bottom: 25px;
+}
+
+#sezione-features p {
+  opacity: 0.5;
+}
+
+#sezione-features a {
+  text-decoration: none;
+  color: #0069ff;
+}
 
 
 /* Small devices (tablets, 768px and up) */
@@ -283,6 +320,17 @@ main {
     padding: 5px 0;
   }
 
+  /* corpo centrale */
+
+  #sezione-deploy h3, #sezione-features h3, #sezione-designed h3 {
+    font-size: 27px;
+  }
+
+  #sezione-deploy .centratura p, #sezione-designed p {
+    font-size: 18px;
+  }
+
+
   /* sezione customers */
   #sezione-customers {
     padding-top: 25px;
@@ -305,14 +353,6 @@ main {
 
   #sezione-deploy aside ul li a {
     font-size: 17px;
-  }
-
-  #sezione-deploy h3 {
-    font-size: 27px;
-  }
-
-  #sezione-deploy .centratura p {
-    font-size: 18px;
   }
 
   /* sezione designed */
