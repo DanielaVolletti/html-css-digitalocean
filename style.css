@@ -11,7 +11,7 @@
 /* barra di navigazione */
 
 header nav {
-  padding: 5px;
+  padding: 10px;
 }
 
 ul li {
@@ -26,11 +26,14 @@ ul li {
 .navigazione ul li {
   float: left;
   padding-right: 10px;
-  padding-top: 5px;
 }
 
 .navigazione ul li, #logo img {
   padding-top: 5px;
+}
+
+#logo img {
+  width: 140px;
 }
 
 #bottone-sign-up {
@@ -93,7 +96,7 @@ ul, ol {
 }
 
 main {
-  padding-top: 50px;
+  padding-top: 55px;
 }
 
 /* sezione uno */
@@ -106,12 +109,12 @@ main {
 #sezione-uno h1 {
   color: white;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 #sezione-uno p {
   color: #bbcdff;
-  font-size: 19px;
+  font-size: 15px;
 }
 
 /* parte dati sezione uno */
@@ -127,7 +130,7 @@ main {
 }
 
 #dati h3, #dati h4 {
-  font-size: 23px;
+  font-size: 20px;
 }
 
 #dati h3, #dati h4, #dati h6 {
@@ -136,7 +139,7 @@ main {
 
 #dati button {
   width: 100%;
-  font-size: 12px;
+  font-size: 10px;
   border-radius: 3px;
   padding: 5px 0;
 }
@@ -162,17 +165,17 @@ main {
 
 #bottone-sign img {
   float: left;
-  width: 5%;
+  width: 3%;
   margin-left: 1%;
 }
 
 #bottone-sign span {
   float: left;
-  width: 87%;
+  width: 92%;
 }
 
 #dati h6 {
-  font-size: 11px;
+  font-size: 9px;
 }
 
 #dati h6 span a {
@@ -198,7 +201,7 @@ main {
 }
 
 .logo-customers {
-  width: 130px;
+  width: 110px;
   height: auto;
 }
 
@@ -216,11 +219,11 @@ main {
 
 /* elementi comuni */
 #sezione-deploy h3, #sezione-features h3, #sezione-designed h3, #sezione-tabelle h3, #sezione-rockerbox h3, #get-start h3 {
-  font-size: 28px;
+  font-size: 25px;
 }
 
 #sezione-deploy .centratura p, #sezione-designed p {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 
@@ -248,7 +251,7 @@ main {
 
 #sezione-deploy aside ul li a {
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 #sezione-deploy aside ul li a:hover {
@@ -258,6 +261,8 @@ main {
 
 #sezione-deploy aside {
   border-left: solid 1px #c3c3c3;
+  margin-left: 10px;
+  margin-bottom: 20px;
 }
 
 #sezione-deploy article {
@@ -285,7 +290,7 @@ main {
 }
 
 #contenitore-screen h6 {
-  font-size: 15px;
+  font-size: 13px;
   opacity: 0.5;
 }
 
@@ -298,8 +303,12 @@ main {
 }
 
 #contenitore-screen .fa-chevron-left, #contenitore-screen .fa-chevron-right {
-  font-size: 30px;
+  font-size: 20px;
   padding: 10px;
+}
+
+.pallini {
+  display: none;
 }
 
 #contenitore-screen img {
@@ -308,22 +317,13 @@ main {
   height: auto;
 }
 
-#contenitore-screen .pallini i {
-  font-size: 10px;
-  font-weight: normal;
-  color: #0069ff;
-  opacity: 0.6;
-  padding: 10px;
-}
-
-#contenitore-screen .pallini i:hover {
-  opacity: 1;
-}
-
 /* sezione features */
-
 #sezione-features {
   padding: 50px 0;
+}
+
+#sezione-features article {
+  padding-bottom: 20px;
 }
 
 #sezione-features, #sezione-features h5, #sezione-features h3 {
@@ -345,7 +345,6 @@ main {
 }
 
 /* sezione tabelle */
-
 #sezione-tabelle {
   background-color: #031b4e;
   background-image: url('img/sfondo-due.svg');
@@ -409,7 +408,7 @@ main {
 #simil-screen p {
   padding-top: 20px;
   opacity: 0.5;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 #simil-screen a {
@@ -418,7 +417,7 @@ main {
 }
 
 #sezione-rockerbox .fa-chevron-left, #sezione-rockerbox .fa-chevron-right {
-  font-size: 30px;
+  font-size: 20px;
   vertical-align: middle;
 }
 
@@ -432,24 +431,6 @@ main {
 
 #simil-screen footer {
   padding-bottom: 20px;
-}
-
-#sezione-rockerbox .pallini {
-  padding-top: 10px;
-}
-
-#sezione-rockerbox .pallini i {
-  padding: 10px;
-  font-size: 10px;
-  font-weight: normal;
-  color: #0069ff;
-  opacity: 0.6;
-  padding: 10px;
-}
-
-#sezione-rockerbox .pallini i:hover {
-  color: #0069ff;
-  opacity: 1;
 }
 
 /* sezione get started */
@@ -470,7 +451,7 @@ main {
   font-weight: bold;
   color: #0069ff;
   border-radius: 5px;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 #get-started button:hover {
@@ -492,7 +473,7 @@ main {
 #copywrite h6 {
   color: #fff;
   opacity: 0.3;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 #loghi-social {
@@ -501,7 +482,8 @@ main {
 
 #loghi-social i {
   padding-right: 5px;
-  font-size: 20px;
+  font-size: 15px;
+  padding-bottom: 15px;
 }
 
 #loghi-social a i:hover, .liste-piè ul li a:hover {
@@ -528,17 +510,84 @@ main {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+  /* sezione uno */
+  #sezione-uno h1 {
+    font-size: 45px;
+  }
+
+  #sezione-uno p {
+    font-size: 17px;
+  }
+
+  /* parte dati sezione uno */
+  #dati button {
+    font-size: 12px;
+  }
+
+  #dati h6 {
+    font-size: 11px;
+  }
+
+  #dati h3, #dati h4 {
+    font-size: 23px;
+  }
+
+  /* elementi comuni sezioni */
+  #sezione-deploy h3, #sezione-features h3, #sezione-designed h3, #sezione-tabelle h3, #sezione-rockerbox h3, #get-start h3 {
+    font-size: 28px;
+  }
+
+  #sezione-deploy .centratura p, #sezione-designed p {
+    font-size: 18px;
+  }
+
+  /* sezione deploy */
+  #sezione-deploy aside ul li a {
+    font-size: 18px;
+  }
+
+  /* sezione customers */
+  .logo-customers {
+    width: 130px;
+    height: auto;
+  }
+
   /* sezione designe */
+  #contenitore-screen h6 {
+    font-size: 15px;
+  }
+
   #contenitore-screen img {
     width: 400px;
     height: auto;
   }
 
   /* sezione rockerbox */
-
   #simil-screen {
     width: 400px;
     height: auto;
+  }
+
+  #simil-screen p {
+    font-size: 18px;
+  }
+
+  #sezione-rockerbox .fa-chevron-left, #sezione-rockerbox .fa-chevron-right {
+    font-size: 20px;
+  }
+
+  /* sezione get started */
+  #get-start button {
+    font-size: 15px;
+  }
+
+  /* piè di pagina */
+  #copywrite h6 {
+    font-size: 14px;
+  }
+
+  #loghi-social i {
+    font-size: 20px;
   }
 
 }
@@ -546,13 +595,49 @@ main {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-  /* sezione navigazione */
+  /* sezione uno */
+  #sezione-uno h1 {
+    font-size: 50px;
+  }
 
+  #sezione-uno p {
+    font-size: 19px;
+  }
+
+  #bottone-sign img {
+    width: 5%;
+    margin-left: 1%;
+  }
+
+  #bottone-sign span {
+    float: left;
+    width: 87%;
+  }
 
   /* sezione designe */
+  .pallini {
+    display: block;
+  }
+
   #contenitore-screen img {
     width: 500px;
     height: auto;
+  }
+
+  #contenitore-screen .pallini i {
+    font-size: 10px;
+    font-weight: normal;
+    color: #0069ff;
+    opacity: 0.6;
+    padding: 10px;
+  }
+
+  #contenitore-screen .pallini i:hover {
+    opacity: 1;
+  }
+
+  #contenitore-screen .fa-chevron-left, #contenitore-screen .fa-chevron-right {
+    font-size: 30px;
   }
 
   /* sezione rockerbox */
@@ -562,12 +647,29 @@ main {
     height: auto;
   }
 
+  #sezione-rockerbox .pallini {
+    padding-top: 10px;
+  }
+
+  #sezione-rockerbox .pallini i {
+    padding: 10px;
+    font-size: 10px;
+    font-weight: normal;
+    color: #0069ff;
+    opacity: 0.6;
+    padding: 10px;
+  }
+
+  #sezione-rockerbox .pallini i:hover {
+    color: #0069ff;
+    opacity: 1;
+  }
+
 }
 
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
 
   /* prima sezione */
   .navigazione {
@@ -577,28 +679,5 @@ main {
   #hamburgher {
     display: none;
   }
-
-
-
-
-  /* corpo centrale */
-
-
-
-  /* sezione customers */
-
-  /* sezione deploy */
-
-
-
-
-  /* sezione designed */
-
-
-
-
-  /* sezione rockerbox */
-
-
 
 }
