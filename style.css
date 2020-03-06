@@ -61,6 +61,32 @@ ul li {
   background-color: #0069ff;
 }
 
+/* hamburgher menu */
+#hamburgher {
+  line-height: 50px;
+}
+
+#hamburgher button:first-child {
+  background: transparent;
+  border: none;
+  color: #0069ff;
+}
+
+#hamburgher ul li a {
+  color: #0069ff;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.dropdown-menu #bottone-hamburgher button {
+  border: 1px solid #0069ff;
+  border-radius: 3px;
+  background-color: #0069ff;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+}
+
 ul, ol {
   margin-top: 0;
   margin-bottom: 0!important;
@@ -502,11 +528,26 @@ main {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+  /* sezione designe */
+  #contenitore-screen img {
+    width: 400px;
+    height: auto;
+  }
+
+  /* sezione rockerbox */
+
+  #simil-screen {
+    width: 400px;
+    height: auto;
+  }
 
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+  /* sezione navigazione */
+
 
   /* sezione designe */
   #contenitore-screen img {
@@ -534,8 +575,9 @@ main {
   }
 
   #hamburgher {
-    display: none
+    display: none;
   }
+
 
 
 
