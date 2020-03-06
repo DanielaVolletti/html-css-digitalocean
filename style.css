@@ -8,7 +8,6 @@
   text-align: center;
 }
 
-
 /* barra di navigazione */
 
 header nav {
@@ -21,6 +20,7 @@ ul li {
 
 .navigazione {
   padding-left: 50px;
+  display: none;
 }
 
 .navigazione ul li {
@@ -73,15 +73,19 @@ main {
 /* sezione uno */
 #sezione-uno {
   background-image: url(img/sfondo-uno.jpg);
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #sezione-uno h1 {
   color: white;
   font-weight: bold;
+  font-size: 50px;
 }
 
 #sezione-uno p {
   color: #bbcdff;
+  font-size: 19px;
 }
 
 /* parte dati sezione uno */
@@ -96,6 +100,10 @@ main {
   color: #0069ff;
 }
 
+#dati h3, #dati h4 {
+  font-size: 23px;
+}
+
 #dati h3, #dati h4, #dati h6 {
   font-weight: bold;
 }
@@ -104,6 +112,7 @@ main {
   width: 100%;
   font-size: 12px;
   border-radius: 3px;
+  padding: 5px 0;
 }
 
 #bottone-create button {
@@ -148,6 +157,8 @@ main {
 /* sezione customers */
 #sezione-customers {
   background-color: #F3F5F9;
+  padding-top: 25px;
+  padding-bottom: 20px;
 }
 
 #sezione-customers h5 {
@@ -177,11 +188,32 @@ main {
   color: #0069ff;
 }
 
+/* elementi comuni */
+#sezione-deploy h3, #sezione-features h3, #sezione-designed h3, #sezione-tabelle h3, #sezione-rockerbox h3, #get-start h3 {
+  font-size: 28px;
+}
+
+#sezione-deploy .centratura p, #sezione-designed p {
+  font-size: 18px;
+}
+
+
 /* sezione deploy */
+#sezione-deploy {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
 
 #sezione-deploy, #sezione-deploy h5, #sezione-deploy h3, #sezione-deploy ul li a {
   font-weight: bold;
   color: #0c2454;
+}
+#blocco-aside-articoli {
+  padding-top: 40px;
+}
+
+#sezione-deploy aside ul li {
+  padding: 10px 0;
 }
 
 #sezione-deploy aside ul li a, #sezione-deploy p {
@@ -190,6 +222,7 @@ main {
 
 #sezione-deploy aside ul li a {
   text-decoration: none;
+  font-size: 17px;
 }
 
 #sezione-deploy aside ul li a:hover {
@@ -245,6 +278,8 @@ main {
 
 #contenitore-screen img {
   padding-bottom: 10px;
+  width: 300px;
+  height: auto;
 }
 
 #contenitore-screen .pallini i {
@@ -337,6 +372,8 @@ main {
   background-color: white;
   padding: 50px 0;
   display: inline-block;
+  width: 300px;
+  height: auto;
 }
 
 #sezione-rockerbox h3, #simil-screen p, #nome {
@@ -466,84 +503,16 @@ main {
 @media (min-width: 768px) {
 
 
-
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-
-
-}
-
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
-  /* prima sezione */
-  #sezione-uno {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  #sezione-uno h1 {
-    font-size: 50px;
-  }
-
-  #sezione-uno p {
-    font-size: 19px;
-  }
-
-  #dati h3, #dati h4 {
-    font-size: 23px;
-  }
-
-  #dati button {
-    padding: 5px 0;
-  }
-
-  /* corpo centrale */
-
-  #sezione-deploy h3, #sezione-features h3, #sezione-designed h3, #sezione-tabelle h3, #sezione-rockerbox h3, #get-start h3 {
-    font-size: 28px;
-  }
-
-  #sezione-deploy .centratura p, #sezione-designed p {
-    font-size: 18px;
-  }
-
-
-  /* sezione customers */
-  #sezione-customers {
-    padding-top: 25px;
-    padding-bottom: 20px;
-  }
-
-  /* sezione deploy */
-  #sezione-deploy {
-    padding-top: 40px;
-    padding-bottom: 30px;
-  }
-
-  #blocco-aside-articoli {
-    padding-top: 40px;
-  }
-
-  #sezione-deploy aside ul li {
-    padding: 10px 0;
-  }
-
-  #sezione-deploy aside ul li a {
-    font-size: 17px;
-  }
-
-  /* sezione designed */
-
+  /* sezione designe */
   #contenitore-screen img {
     width: 500px;
     height: auto;
   }
-
 
   /* sezione rockerbox */
 
@@ -551,5 +520,43 @@ main {
     width: 500px;
     height: auto;
   }
+
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+  /* prima sezione */
+  .navigazione {
+    display: block;
+  }
+
+  #hamburgher {
+    display: none
+  }
+
+
+
+  /* corpo centrale */
+
+
+
+  /* sezione customers */
+
+  /* sezione deploy */
+
+
+
+
+  /* sezione designed */
+
+
+
+
+  /* sezione rockerbox */
+
+
 
 }
